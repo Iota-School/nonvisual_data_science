@@ -1,0 +1,8 @@
+*~
+*#
+.#*
+*.pyc
+__pycache__/
+.python-version
+drafts/
+notes/
