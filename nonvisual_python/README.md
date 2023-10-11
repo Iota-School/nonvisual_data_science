@@ -1,4 +1,4 @@
-# A Nonvisual Introduction to Python
+# Nonvisual Introduction to Python
 
 ## Overview
 
