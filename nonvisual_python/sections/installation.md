@@ -18,7 +18,7 @@ To install Anaconda, follow these steps:
 
 1. Visit the [Anaconda download page](https://www.anaconda.com/download/).
 2. Click the Download link. (It's the second link after the `Free Download` heading.)
-3. Runthe executable.
+3. Run the executable.
 4. Install using the default settings.
 
 In this workshop, we'll be using the Anaconda Prompt (not the Anaconda Navigator). To open the Anaconda prompt, press the Windows button on your keyboard (also known as the `meta` button, usually located between the `Control` and `Alt` buttons on your keyboard.) Type "anaconda prompt" and Anaconda Prompt should be the first result. Hit Enter to start the program.
