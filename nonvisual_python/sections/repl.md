@@ -1,6 +1,6 @@
 [<<< Previous](installation.md) | [Next >>>](review.md)
 
-# Interacting with the Python REPL
+# Starting the IPython REPL
 
 ## Starting the Console
 
