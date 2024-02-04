@@ -1,4 +1,4 @@
-[<<< Previous]math.md) | [Next >>>](variables.md)
+[<<< Previous](math.md) | [Next >>>](variables.md)
 
 # Types
 
