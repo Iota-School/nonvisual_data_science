@@ -76,4 +76,4 @@ The `type()` text with parentheses we used above is a function. You can think of
 
 These are all valid ways of thinking about functions. For now, you might just want to think of a function as a way to perform an action in Python.
 
-[<<< Previous]math.md) | [Next >>>](variables.md)
+[<<< Previous](math.md) | [Next >>>](variables.md)
