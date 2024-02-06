@@ -6,6 +6,8 @@ Python is a high-level programming language used extensively in data science, ap
 
 This workshop is part of the [Pandas Nonvisual Introduction to Data Science series](). While this workshop is focused on Python as a genral-purpose programming language, the workshop is intended to prepare you for the use of the Pandas library for data-science tasks.
 
+[Get Started](sections/installation.md)  
+
 ## Topics Covered
 
 The Python-specific topics covered in this workshop will include:
@@ -29,4 +31,21 @@ In addition, we will cover these topics specific to accessing Python nonvisually
 
 In addition, we'll cover these Python-specific topics:
 
-[Get Started](sections/installation.md)  
+## Contents
+
+- [Installation](sections/installation.md)  
+- [Starting the IPython REPL](sections/repl.md)  
+- [Interaction and Review](sections/review.md)  
+- [More Math](sections/math.md)  
+- [Types](sections/types.md)  
+- [Variables](sections/variables.md)  
+- [Lists](sections/lists.md)  
+- [Conditionals](sections/conditionals.md)  
+- [Looking Inside Objects](sections/objects.md)  
+- [A Little Motivation](sections/motivation.md)  
+- [Saving Our Code with IPython Magic](sections/magic.md)  
+<!-- - [Resources](sections/resources.md)   -->
+
+## Resources
+
+[NVDA HOtkeys](nvda_coding_shortcuts.md)  
