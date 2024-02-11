@@ -48,4 +48,4 @@ In addition, we'll cover these Python-specific topics:
 
 ## Resources
 
-[NVDA HOtkeys](sections/nvda_coding_shortcuts.md)  
+[NVDA Hotkeys](sections/nvda_coding_shortcuts.md)  
