@@ -21,7 +21,7 @@ If you would like to resume your session in the future, you can use the `%load` 
 ```python
 %load nonvisual.py
 ```
-## Other Useful Magic Commands
+## Other Useful Magic Commands and IPython Tricks
 
 IPython has a [variety of magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html). A few other useful commands:
 
@@ -31,5 +31,41 @@ IPython has a [variety of magic commands](https://ipython.readthedocs.io/en/stab
 - `%who`: Print out all the variables you've defined and that are available in your session.
 - `%whos`: Like who, but you get more information on each variable
 - `%xmode`: This mode determines how much information will be printed out during a traceback error. `%xmode minimal` can be good for screen reader users who don't want verbose output.
+
+### The Underscore Trick
+
+IPython stores the output of the last successfully run commadn as the variable `_` (the underscore symbol).
+
+If you ran a command and would like to assign its output to a variable, you can use the underscore as follows:
+
+```Python
+2 + 5
+```
+
+Then run:
+
+```Python
+x = _
+```
+
+That's the letter x, a space, the equal sign, a space, and an underscore.
+
+Now the output of `2 + 5` should be assigned to `x`:
+
+```Python
+x
+```
+
+You should hear the number 7 as output.
+
+In fact, you can do this for the output of any cell in your session. To assign `y` to the output of the ninth cell in your code, run the following:
+
+```Python
+y = _9
+```
+
+That's the letter y, a space, an equal sign, a space, an underscore, and the number 9.
+
+Just replace the number 9 with the number of the cell whose output you want to reference.
 
 [<<< Previous](motivation.md) | [Next >>>](resources.md)
