@@ -35,7 +35,6 @@ type(True)
 ```python
 type([1, 2, 3])
 ```
-```
 
 (That's the word `type`, an opening parenthesis , an opening square bracket, the number 1, a comma, the number 2, a comma, the number 3, a closing square bracket, and a closing parenthesis.
 
