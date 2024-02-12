@@ -1,4 +1,3 @@
-
 # Creating a DataFrame
 
 If the series is how we handle one-dimensional data in Pandas, the dataframe is how we handle two-dimensional data. Like the series, the dataframe provides a variety of methods for working with data contained in it.
@@ -53,16 +52,9 @@ The result will be a significant amount of output. The output should be similar 
   3   October     15       4
   4   November    15       5
 
-The dataframe representation takes the form of a table. The first line consists of column headers. These headers are the keys in the dictionary we provided when creating the dataframe. Each subsequent line represents a row. The first column (the first number you hear in each row) is the index, which consists of integers 0, 1, 2, 3, and 4.
+This dataframe representation takes the form of a table. The first line consists of column headers. These headers are the keys in the dictionary we provided when creating the dataframe. Each subsequent line represents a row. The first column (the first number you hear in each row) is the index, which consists of integers 0, 1, 2, 3, and 4.
 
 Because the dataframe representation isn't structured as a table, it's of limited use to screen reader users. While you can parse out the data by reviewing each line carefully, we will learn better ways to explore the data in the dataframe in the coming sections. With that said, it's good to be generally familiar with the structure of this representation.
 
 While sighted data scientists do use these representations, they're not as useful as you might think. This is because, when dealing with large data sets, much of the information gets cut off anyway because it is impractical to display it all. You're not missing out on that much by not using the representation above—sighted data scientists also need to use the techniques to limit output we'll learn when dealing with data sets that have many columns and/or rows.
-
-df.info()
-df['ice cream'].min()
-df.iloc[1]
-
-
-
 

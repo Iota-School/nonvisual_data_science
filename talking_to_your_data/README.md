@@ -7,6 +7,9 @@ In this workshop, participants will read a provided data set into a pandas DataF
 dimensions.md
 series.md
 labels.md
+keysvalues.md
+dataframe.md
+dataframe_methods.md
 
 
 [Get Started](sections/installation.md)  
