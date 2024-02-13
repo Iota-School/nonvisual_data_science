@@ -39,13 +39,10 @@ This returns an index (another list-like object) with our column names. This als
 len(df.columns)
 ```
 
-The above uses the `len` function on our index (list-like object) of columns. (You'll find that we'll start combining more and more of what we learn together as we go on, so it's important to keep track of what each function, method, and attribute do as we go on.)
+The above uses the `len` function on our index (list-like object) of columns. (You'll find that we'll start combining more and more of what we learn together as we go on, so it's important to keep track of what each function, method, and attribute does as we go on.)
 
 Rows also have names, and we learned about this when we worked with the Pandas series. We store row names or identifiers in the index of the dataframe or series. Let's pull out the index now:
 
-```python
-df.index
-```
 You should get the following as output:
 
 ```python
@@ -54,7 +51,13 @@ RangeIndex(start=0, stop=5, step=1)
 
 That's pretty weird output, but this is Python's way of describing that the index is a count that starts at 0, stops at 5, and goes up by one each time. Basically, our index is a list-like object that counts up from 0, which is not really that useful to us.
 
-What does a good and useful index look like? Typically, we like to use something unique to each row, preferably that is identifying. In our case, we know our data represents our monthly budget. Each row represents a month. Since the dataset is small, the months are also unique. For now, months would make for the best index. Let's replace our non-useful index with a better one:
+Actually, this output is a valid function within Pandas we can use to generate our own list-like objects for use with an index or for other reasons. In later workshops, we'll use a similar function to create sample data, bt you can try it now:
+
+```python
+pandas.RangeIndex(start=0, stop=5, step=1)
+```
+
+What does a good and useful index look like? Typically, we like to use something unique to each row, preferably something identifying. In our case, we know our data represents our monthly budget. Each row represents a month. Since the dataset is small, the months are also unique. For now, months would make for the best index. Let's replace our non-useful index with a better one:
 
 ```python
 df.index = df.month
@@ -111,7 +114,7 @@ df.cookie_budget / df.budget
 ```
 The resulting series tells us the percentage of each month's total budget we'll be spending on cookies.
 
-## Extracing Rows
+## Extracting Rows
 
 It's not an operation we use as frequently as pulling out columns, but we can also pull out specific rows. We'll learn two methods for extracting a specific row from a dataset.
 
