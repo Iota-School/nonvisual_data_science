@@ -56,5 +56,5 @@ This dataframe representation takes the form of a table. The first line consists
 
 Because the dataframe representation isn't structured as a table, it's of limited use to screen reader users. While you can parse out the data by reviewing each line carefully, we will learn better ways to explore the data in the dataframe in the coming sections. With that said, it's good to be generally familiar with the structure of this representation.
 
-While sighted data scientists do use these representations, they're not as useful as you might think. This is because, when dealing with large data sets, much of the information gets cut off anyway because it is impractical to display it all. You're not missing out on that much by not using the representation above—sighted data scientists also need to use the techniques to limit output we'll learn when dealing with data sets that have many columns and/or rows.
+While sighted data scientists do use these representations, they're not as useful as you might think. This is because, when dealing with large datasets, much of the information gets cut off anyway because it is impractical to display it all. You're not missing out on that much by not using the representation above—sighted data scientists also need to use the techniques to limit output we'll learn when dealing with datasets that have many columns and/or rows.
 

@@ -14,7 +14,7 @@ When dealing with new data, one of the first things we want to find out are the 
 len(df)
 ```
 
-When we run the above on our cookie budget data set, the output should be five. That means we have five rows. Each row represents a specific month of spending.
+When we run the above on our cookie budget dataset, the output should be five. That means we have five rows. Each row represents a specific month of spending.
 
 To get both the number of rows and the number of columns, we can use the `shape` attribute on our dataframe. (This is an attribute and not a method, so we don't use parentheses.)
 
@@ -53,7 +53,7 @@ RangeIndex(start=0, stop=5, step=1)
 
 That's pretty weird output, but this is Python's way of describing that the index is a count that starts at 0, stops at 5, and goes up by one each time. Basically, our index is a list-like object that counts up from 0, which is not really that useful to us.
 
-What does a good and useful index look like? Typically, we like to use something unique to each row, preferably that is identifying. In our case, we know our data represents our monthly budget. Each row represents a month. Since the data set is small, the months are also unique. For now, months would make for the best index. Let's replace our non-useful index with a better one:
+What does a good and useful index look like? Typically, we like to use something unique to each row, preferably that is identifying. In our case, we know our data represents our monthly budget. Each row represents a month. Since the dataset is small, the months are also unique. For now, months would make for the best index. Let's replace our non-useful index with a better one:
 
 ```python
 df.index = df.month
@@ -112,7 +112,7 @@ The resulting series tells us the percentage of each month's total budget we'll 
 
 ## Extracing Rows
 
-It's not an operation we use as frequently as pulling out columns, but we can also pull out specific rows. We'll learn two methods for extracting a specific row from a data set.
+It's not an operation we use as frequently as pulling out columns, but we can also pull out specific rows. We'll learn two methods for extracting a specific row from a dataset.
 
 First, let's pull out a row using a unique value from the index:
 
@@ -139,4 +139,4 @@ You may wish to experiment with the following method:
 df.info()
 ```
 
-The `info()` method prints out a summary of the dataframe that will let you know the length of each column, it's name, and its data type. If you're using a screen reader, this is probably too much information to want to parse, but it's a commonly used method to get an overview of a data set.
+The `info()` method prints out a summary of the dataframe that will let you know the length of each column, it's name, and its data type. If you're using a screen reader, this is probably too much information to want to parse, but it's a commonly used method to get an overview of a dataset.

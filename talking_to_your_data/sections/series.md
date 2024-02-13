@@ -108,8 +108,8 @@ Go ahead and review the output. Here are some highlights:
 - The `count` is the number of items in the series.
 - The `min` and `max` are the minimum and maximum values, respectively.
 - The `mean` is the average.
-- The `50%` is the same as the median, meaning the middlemost number. The `25%` and `75%` (twenty-fifth and seventy-fifth quartiles) are the numbers closest to the 25% and 75% mark in the dataset, or the median of the lower half and upper half of the data set, respectively.
-- The `std` is the standard deviation. The standard deviation is a measure of how much variability is in the data set. If the number is low, most values in the data set are close to the average. If the value is high, values in the data are more dispersed.
+- The `50%` is the same as the median, meaning the middlemost number. The `25%` and `75%` (twenty-fifth and seventy-fifth quartiles) are the numbers closest to the 25% and 75% mark in the dataset, or the median of the lower half and upper half of the dataset, respectively.
+- The `std` is the standard deviation. The standard deviation is a measure of how much variability is in the dataset. If the number is low, most values in the dataset are close to the average. If the value is high, values in the data are more dispersed.
 
 ## What's the Deal with the Describe Method?
 
