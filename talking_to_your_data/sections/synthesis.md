@@ -1,3 +1,5 @@
+[<<< Previous](dataframe_fundamentals.md) | [Next >>>](challenges.md)
+
 # Pulling It Together
 
 So far, we've used our various series and dataframe methods on a toy dataset we created ourselves. Let's try using them on a real world dataset.
@@ -102,3 +104,4 @@ This sorts all the prices, then returns the last five. (By default, `sort_values
 
 If we were to use a visual technique such as a bar graph to represent the data, we might also see that the data has a smaller number of very large values. However, we can also make similar insights about the shape of the data through techniques such as looking at the mean and median. In the next session, we will consider more sophisticated ways to generate insights about large data sets nonvisually.
 
+[<<< Previous](dataframe_fundamentals.md) | [Next >>>](challenges.md)

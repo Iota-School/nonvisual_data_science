@@ -1,3 +1,5 @@
+[<<< Previous](../README.md) | [Next >>>](series.md)
+
 # Dimensions in Data
 
 Imagine we have a list:
@@ -35,3 +37,5 @@ If you've used spreadsheet software before, you can imagine each list as a colum
 We can create data that exists in more than two dimensions. If we replaced each of the items in the above list (i.e., 10, 5, and 8 and January, February, March) with further lists, we'd have created three-dimensional data. In that case the locations of items within those lists would need to be described using three numbers (X, Y, and Z). You can keep going with this principle and create data in any number of dimensions. We won't be working with that kind of data in this tutorial, but we call this N-dimensional data (data in any number of dimensions), and this kind of data has many applications.
 
 Technically, any piece of data that is not a list or sequence is an example of zero-dimensional data. That means that no numbers are needed to describe its location in space. While we use zero-dimensional data all the time, there isn't much need to describe it this way.
+
+[<<< Previous](../README.md) | [Next >>>](series.md)

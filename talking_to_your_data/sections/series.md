@@ -1,3 +1,4 @@
+[<<< Previous](dimensions.md) | [Next >>>](keysvalues.md)
 
 # The Series
 
@@ -135,3 +136,4 @@ Why is `Series` capitalized when we create a series object? In Python, there are
 
 Why do we use such a short variable name (`s`) for our series? Generally speaking, in Python, you are encouraged to use descriptive variable names, and `s` is not very descriptive. The short answer here is that there are some informal conventions in the Python data science community. If there will only be one series, we will often call it `s`. We will learn one or two more of these informal short variable conventions in these tutorials. However, if you're tempted to start naming varaibles `s1`, `s2`, etc., it's probably time to give your variables longer names.
 
+[<<< Previous](dimensions.md) | [Next >>>](keysvalues.md)

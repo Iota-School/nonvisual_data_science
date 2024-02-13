@@ -1,3 +1,5 @@
+[<<< Previous](series.md) | [Next >>>](creating_dataframe.md)
+
 # Keys and Values
 
 A common task in data science and programming more broadly is looking up data. One technique for looking up data we've learned previously is slicing. In slicing, we provide an integer that corresponds to the location of an item in a list.
@@ -40,6 +42,4 @@ That's our dictionary variable, then an opening square bracket, then the key as 
 
 The output of the above should be our value, in this case `9999999999`.
 
-
-
-
+[<<< Previous](series.md) | [Next >>>](creating_dataframe.md)
