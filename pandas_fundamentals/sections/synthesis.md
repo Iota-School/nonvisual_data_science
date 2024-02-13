@@ -16,11 +16,11 @@ Our first step is to have Pandas pull in our Airbnb data. Copy the following lin
 df = pandas.read_csv('https://bit.ly/nycbnb')
 ```
 
-<!-- If you're having trouble running this command, try these steps. -->
+This command will overwrite our `df` variable from before, so you may wish to save your session now using the `%sav` magic if you'd like to experiment with it later.
 
 ## Initial Analysis
 
-Let's run through the procedures we've learned to get a feel for our dataset.. First, let's get the size of the dataset in rows and column:
+Let's run through the procedures we've learned to get a feel for our dataset.. First, let's get the size of the dataset in rows and columns:
 
 ```python
 df.shape
@@ -33,7 +33,7 @@ Before we can proceed, we should learn what kinds of data we have to draw on. Le
 ```python
 df.columns
 ```
-Earlier I said the output of this command is a list-like object Unfortunately, this data type (the Pandas index) is somewhat annoying to review as a screen reader user. If you'd like to review the output one line at a time, you can convert the index to a normal Python list with the `list()` function:
+Earlier I said the output of this command is a list-like object. Unfortunately, this data type (the Pandas index) is somewhat annoying to review as a screen reader user. If you'd like to review the output one line at a time, you can convert the index to a normal Python list with the `list()` function:
 
 ```python
 list(df.columns)
