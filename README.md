@@ -7,8 +7,8 @@ This curriculum for a five-workshop series introduces participants to data scien
 ## Workshops
 
 - [Nonvisual Introduction to Python](nonvisual_python/README.md): An introduction to the Python programming language using the NVDA screen reader and the IPython interactive Python interpreter.
-- [Talking to Your Data](talking_to_your_data/README.md): An introduction to the Pandas data science library, with an emphasis on exploring data in the REPL using a "conversational" style and using chaining functionality in Pandas to make highly specific queries.
-- [Manipulating Your Data](manipulating_data/README.md): An introduction to cleaning data, transforming data, and deriving data in the IPython REPL that includes strategies for sharing results and insights with sighted colleagues.
+- [Data Science Fundamentals in Pandas](pandas_fundamentals/README.md): An introduction to the Pandas data science library, with an emphasis on exploring data in the REPL using a "conversational" style and using chaining functionality in Pandas to make highly specific queries.
+- [Talking to Your Data](talking_to_your_data/README.md): An introduction to cleaning data, transforming data, and deriving data in the IPython REPL that includes strategies for sharing results and insights with sighted colleagues.
 - [Sonification I: Principles of Sonification](sonification_1/README.md): Covers the fundamental principles of sonification, including the definition of sonification, existing use cases, the most common sonification methods, parameter mapping, and audifications. This workshop will also introduce the astronify library for sonifying astronomical data developed at Space Telescope Science Institute.
 - [Sonification II: Creating Sonifications with Astronify](sonification_2/README.md): Sonify trend data prepared in previous workshops using the Astronify library developed at Space Telescope Science Institute. 
 

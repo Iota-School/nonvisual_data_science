@@ -1,15 +1,5 @@
-# Data Science Fundamentals in Pandas
+Manipulating Data
 
-This workshop covers the fundamentals of using Pandas series and dataframe types to work with one- and two-dimensional data. We cover creating series and dataframes, looking up data by key and index, extracting rows and columns, using math operations on columns, using basic statistical methods such as mean and standard deviation, and chaining methods to answer more complex questions.
+In this workshop, participants will learn how to prepare a data set for sonification. The workshop will cover common cleaning tasks such as renaming columns, creating derived columns, and changing dtypes. Participants will end by converting their data to an Astropy table for sonification.
 
-[Get Started](sections/dimensions.md)  
-
-## Contents
-
-- [Dimensions in Data](sections/dimensions.md)  
-- [The Series](sections/series.md)  
-- [Keys and Values](sections/keysvalues.md)  
-- [Creating a DataFrame](sections/creating_dataframe.md)  
-- [Dataframe Fundamentals](sections/dataframe_fundamentals.md)  
-- [Pulling It Together](sections/synthesis.md)  
-- [Challenges](sections/challenges.md)  
+[Get Started](sections/installation.md)  
