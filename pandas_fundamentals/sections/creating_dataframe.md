@@ -46,13 +46,48 @@ df
 
 The result will be a significant amount of output. The output should be similar to the table below, though note that the output will be unstructured text rather than a table:
 
-      month       budget   cookie\_budget
-  --- ----------- -------- ----------------
-  0   June        10       3
-  1   July        10       2
-  2   September   5        0
-  3   October     15       4
-  4   November    15       5
+<table>
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>month</th>
+      <th>budget</th>
+      <th>cookie_budget</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>June</td>
+      <td>10</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>July</td>
+      <td>10</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>September</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>October</td>
+      <td>15</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>November</td>
+      <td>15</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
 
 This dataframe representation takes the form of a table. The first line consists of column headers. These headers are the keys in the dictionary we provided when creating the dataframe. Each subsequent line represents a row. The first column (the first number you hear in each row) is the index, which consists of integers 0, 1, 2, 3, and 4.
 

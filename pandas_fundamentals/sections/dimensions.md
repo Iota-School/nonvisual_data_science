@@ -8,11 +8,11 @@ Imagine we have a list:
 [10, 5, 8]
 ```
 
-That's a list with three items (10, 5, and 8). In your mind, you can imagine these as points on a line going from left to right. The number 10 can be on the left, the number 5 in the middle, and the number 8 on the right.
+That's a list with three items (10, 5, and 8). In your mind, you can imagine these as points on a line going from left to right. The number 10 can be on the left, the number 2 in the middle, and the number 3 on the right.
 
 This is what we call one-dimensional data. One-dimensional data is a sequence or list that does not contain other sequences or lists. The location in the sequence can be expressed with a single number.
 
- In Python, 0 would describe the location of 10, 1 would describe the location of 5, and 2 would describe the location of 8, since we start counting from 0. When we use number to describe locations like this, we call these numbers an "index." 
+ In Python, 0 would describe the location of 10, 1 would describe the location of 5, and 2 would describe the location of 8, since we start counting from 0. When we use numbers to describe locations like this, we call these numbers an "index." 
 
 ## Two-Dimensional Data
 
