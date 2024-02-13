@@ -6,10 +6,10 @@ This workshop covers the fundamentals of using Pandas series and dataframe types
 
 ## Contents
 
-- [Dimensions in Data](dimensions.md)  
-- [The Series](series.md)  
-- [Keys and Values](keysvalues.md)  
-- [Creating a DataFrame](creating_dataframe.md)  
-- [Dataframe Fundamentals](dataframe_fundamentals.md)  
-- [Pulling It Together](synthesis.md)  
-- [Challenges](challenges.md)  
+- [Dimensions in Data](sections/dimensions.md)  
+- [The Series](sections/series.md)  
+- [Keys and Values](sections/keysvalues.md)  
+- [Creating a DataFrame](sections/creating_dataframe.md)  
+- [Dataframe Fundamentals](sections/dataframe_fundamentals.md)  
+- [Pulling It Together](sections/synthesis.md)  
+- [Challenges](sections/challenges.md)  

@@ -1,3 +1,5 @@
+[<<< Previous](keysvalues.md) | [Next >>>](dataframe_fundamentals.md)
+
 # Creating a DataFrame
 
 If the series is how we handle one-dimensional data in Pandas, the dataframe is how we handle two-dimensional data. Like the series, the dataframe provides a variety of methods for working with data contained in it.
@@ -58,3 +60,4 @@ Because the dataframe representation isn't structured as a table, it's of limite
 
 While sighted data scientists do use these representations, they're not as useful as you might think. This is because, when dealing with large datasets, much of the information gets cut off anyway because it is impractical to display it all. You're not missing out on that much by not using the representation above—sighted data scientists also need to use the techniques to limit output we'll learn when dealing with datasets that have many columns and/or rows.
 
+[<<< Previous](keysvalues.md) | [Next >>>](dataframe_fundamentals.md)

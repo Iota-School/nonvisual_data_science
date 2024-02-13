@@ -1,4 +1,4 @@
-[<<< Previous](keysvalues.md) | [Next >>>](synthesis.md)
+[<<< Previous](creating_dataframe.md) | [Next >>>](synthesis.md)
 
 # Dataframe Fundamentals
 
@@ -142,4 +142,4 @@ df.info()
 
 The `info()` method prints out a summary of the dataframe that will let you know the length of each column, it's name, and its data type. If you're using a screen reader, this is probably too much information to want to parse, but it's a commonly used method to get an overview of a dataset.
 
-[<<< Previous](keysvalues.md) | [Next >>>](synthesis.md)
+[<<< Previous](creating_dataframe.md) | [Next >>>](synthesis.md)
