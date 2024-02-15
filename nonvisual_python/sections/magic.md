@@ -34,7 +34,7 @@ IPython has a [variety of magic commands](https://ipython.readthedocs.io/en/stab
 
 ### The Underscore Trick
 
-IPython stores the output of the last successfully run commadn as the variable `_` (the underscore symbol).
+IPython stores the output of the last successfully run command as the variable `_` (the underscore symbol).
 
 If you ran a command and would like to assign its output to a variable, you can use the underscore as follows:
 
@@ -56,7 +56,7 @@ Now the output of `2 + 5` should be assigned to `x`:
 x
 ```
 
-You should hear the number 7 as output.
+You should receive the number 7 as output.
 
 In fact, you can do this for the output of any cell in your session. To assign `y` to the output of the ninth cell in your code, run the following:
 
