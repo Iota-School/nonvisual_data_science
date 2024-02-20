@@ -17,4 +17,6 @@ Blind and visually impaired individuals can access visualizations in a number of
 
 While these approaches are rich ways to access visualizations as directly as possible, they are not always available. In this workshop, we'll focus on ways to summarize data by manipulating it directly in the Python REPL. That is, we'll attempt to have a conversation with our data. This approach is in some ways more limited, and in some ways richer, than other approaches to representing data.
 
+In the following sections, we'll learn about ways of representing data that do not involve visualization. We'll also learn about some ways to explicitly replace specific visualizations, such as bar or line charts, in our analyses.
+
 [<<< Previous](data_types.md) | [Next >>>](categorical.md)

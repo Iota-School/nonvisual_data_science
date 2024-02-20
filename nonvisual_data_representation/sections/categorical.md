@@ -1,7 +1,7 @@
 [<<< Previous](representing_data.md) | [Next >>>](indexing.md)
 # Exploring Categorical Data
 
-Categorical data is often represented visually using a bar or pie chart. However, it is also easily summarized in Pandas. In this section, we'll learn about approaches in Pandas that let us explore categorical data.
+Categorical data is often represented visually using a bar or pie chart. However, it is also easily summarized in a Pandas series. In this section, we'll learn about approaches in Pandas that let us explore categorical data.
 
 For the rest of this workshop, we'll be using our Airbnb dataset. You can read the dataset into Pandas with the following command:
 
@@ -101,20 +101,36 @@ In the above, we used a small number of Pandas methods to quickly figure out the
 
 ### How do I make a bar chart for my sighted colleagues?
 
+First, use the `plot.bar` method on our `neighbourhood_counts` variable to generate the bar chart in Ipython. Then, import Pyplot, which will let you save the chart. Finally, we save the chart with the `savefig` method in Pyplot. The three-line sequence below will save to a file called `output.png` in your home directory. You'll have to have the `neighbourhood_counts` variable assigned as above first.
+
 ```python
+neighbourhood_counts.plot.bar()
 import matplotlib.pyplot as plt
 plt.savefig('output.png')
 ```
 
-
 ### Is there a faster way to get proportions?
 
-use normaliz=True
+When using the `value_counts()` method, you can specify the `normalize=True` option, as below. This will save the step where you divide by the length of the total dataset.
+
+```python
+df.neighbourhood_group.value_counts(normalize=True)
+```
 
 ### Is there a way to see actual percentages rather than decimal proportions?
 
-```
+The below code will do the following:
+
+- Create the proportions of each item in our categorical data set as decimals using `normalize=True`.
+- Multiply each value by 100.
+- Round to the nearest `1`.
+- Convert the values from floating points to strings.
+- Add a percent sign to the end of each string.
+
+```python
 df.neighbourhood_group.value_counts(normalize=True).mul(100).round(1).astype('str') + '%'
 ```
+
+The result will be a series showing a tidy percentage for each category, such as  `41.1%` for Manhattan.
 
 [<<< Previous](representing_data.md) | [Next >>>](indexing.md)
