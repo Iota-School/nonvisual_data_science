@@ -1,4 +1,4 @@
-[<<< Previous](sections/representing_data.md) | [Next >>>](sections/indexing.md)
+[<<< Previous](representing_data.md) | [Next >>>](indexing.md)
 # Exploring Categorical Data
 
 Categorical data is often represented visually using a bar or pie chart. However, it is also easily summarized in Pandas. In this section, we'll learn about approaches in Pandas that let us explore categorical data.
@@ -117,4 +117,4 @@ use normaliz=True
 df.neighbourhood_group.value_counts(normalize=True).mul(100).round(1).astype('str') + '%'
 ```
 
-[<<< Previous](sections/representing_data.md) | [Next >>>](sections/indexing.md)
+[<<< Previous](representing_data.md) | [Next >>>](indexing.md)

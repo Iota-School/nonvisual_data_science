@@ -1,4 +1,4 @@
-[<<< Previous](sections/data_types.md) | [Next >>>](sections/categorical.md)
+[<<< Previous](data_types.md ) | [Next >>>](categorical.md)
 
 # Representing Data
 
@@ -17,4 +17,4 @@ Blind and visually impaired individuals can access visualizations in a number of
 
 While these approaches are rich ways to access visualizations as directly as possible, they are not always available. In this workshop, we'll focus on ways to summarize data by manipulating it directly in the Python REPL. That is, we'll attempt to have a conversation with our data. This approach is in some ways more limited, and in some ways richer, than other approaches to representing data.
 
-[<<< Previous](sections/data_types.md) | [Next >>>](sections/categorical.md)
+[<<< Previous](data_types.md) | [Next >>>](categorical.md)
