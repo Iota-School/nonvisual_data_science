@@ -1,3 +1,4 @@
+[<<< Previous](line.md) | [Next >>>](../README.md)
 
 # Changes Over Time
 
@@ -42,3 +43,5 @@ Line charts are commonly used to visualize a change over some ordered numeric da
  ```
 
 The output here gives a sense of how the listing counts for each year changed over time. In 2012, the `last_review` count grew by 250% compared to the previous year. In 2018, the count grew by 88% compared to the previous year.
+
+[<<< Previous](line.md) | [Next >>>](../README.md)

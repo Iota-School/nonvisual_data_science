@@ -1,3 +1,4 @@
+[<<< Previous](sections/indexing.md) | [Next >>>](sections/line.md)
 
 # Correlation
 
@@ -37,3 +38,4 @@ The result, `-0.04795422658266219`, suggests that the two variables are uncorrel
 
 Scatterplots are often used to visualize correlative relationships between two variables. However, a correlation calculation between two variables as above can also give you significant information on the relationship. A visual scatterplot may sometimes indicate other patterns, such as the presence of outliers. Calculating measures of variability such as standard deviation, variance, and interquartile range (IQR) can also be helpful when exploring numeric data. 
 
+[<<< Previous](sections/indexing.md) | [Next >>>](sections/line.md)

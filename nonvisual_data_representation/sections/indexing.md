@@ -1,3 +1,4 @@
+[<<< Previous](sections/categorical.md) | [Next >>>](sections/correlation.md)
 
 # Indexing and Boolean Data
 
@@ -89,6 +90,4 @@ woodside_df.price.median()
 
 The median price of a night in Woodside is (or was)$60. Seems like a pretty good deal.
 
-
-
-
+[<<< Previous](sections/categorical.md) | [Next >>>](sections/correlation.md)

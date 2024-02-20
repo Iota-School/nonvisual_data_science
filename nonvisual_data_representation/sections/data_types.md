@@ -1,3 +1,5 @@
+[Next >>>](representing_data.md)
+
 # Types of Data
 
 In the last session, we learned about how Pandas handles one- and two-dimensional data, and we used statistical methods such as the mean, median, and standard deviation to gain an insight into one-dimensional data such as the price column in our Airbnb dataset. Up to this point, we've mostly worked with numerical data, such as prices or budget items. It's time to look at some other types of data and how to work with them in Pandas.
@@ -22,4 +24,4 @@ Types of data are not formalized in data science, and you'll hear different name
 
 In the first session of this workshop series, we learned about Python's data types such as strings, lists, and Boolean's. The types of data described above are broad concepts, while Python data types are specific to Python. For example, categorical data can take the form of a string or an integer, as can time data.
 
-
+[Next >>>](representing_data.md)
