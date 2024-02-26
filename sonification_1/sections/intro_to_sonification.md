@@ -1,0 +1,51 @@
+[<<< Previous](installing_astronify.md) | [Next >>>](data_preparation.md)
+
+# Introduction to Sonification
+
+## What is sonification?
+
+What is sonification? Sonification is the representation of data via sound (though not through speech or words; see Kramer et al. 2010). Sonification is directly analogous to visualization, the representation of data through a visual medium, such as a line graph, bar chart, or histogram. It is worth noting that visualizing data is a somewhat arbitrary decision; the data does not literally look like a line graph or histogram, but we represent it as such because many people like to interpret the world visually and now, because it has become conventional and often convenient to do so. Nonetheless, because visualizing data is a choice we make, we can equally choose to sonify, or represent as sound, that same data. Much as data do not literally look like their visualizations, sonifications are not what the data sound like. For instance, the sound of your footsteps are not a sonification of your walking speed because they are not a *representation* of the data. Your footsteps are themselves the data!
+
+Alright, that all sounds good in theory, but maybe it still seems a bit abstract in practice. The good news is that people have been sonifying data for a long time, so we can draw on some concrete examples! One quite famous example of sonification is the Geiger counter, a device that measures the amount of ionizing (or dangerous) radiation in an area and represents that data by varying the rate of the clicking noises it makes. If there is more ionizing radiation, the Geiger counter clicks faster; if there is less ionizing radiation, the Geiger counter clicks more slowly.
+
+Just as we have many options for what type of visualization we choose to use for our data (the aforementioned line graphs, bar charts, and histograms, to name a few), we also have a variety of sonification methods from which to choose from, which might be more useful or appropriate for different types of data. The two most common approaches to sonification are audification and parameter mapping. We will explore both in some detail here.
+
+## Audification
+
+Audification is commonly defined as the most direct mapping of data to audio, (Kramer, 1994; “Audification—Accessible Oceans”, n.d.). What do we mean by that? Suppose that we have two variables, x and y. In this case, y is our dependent variable that changes with x, which for our purposes I will say is time. So, y varies with time, going up and down, and thus we can imagine it like an irregular wave, where y is the height or amplitude of the wave over time. Just as y is the amplitude of our “data wave,” we can map it to the amplitude of the sound wave with which we represent the data. Thus, the value of y controls the amplitude of the sound wave in our audification, which our ears perceive as the volume of the sound. Higher values of y are mapped to higher sound amplitudes, which we perceive as louder sounds in the sonification.
+
+Now, we don’t measure data continuously; rather, we have some “sampling rate,” which is how often we measure the data. For instance, in the Accessible Oceans project, linked below, the tides are measured each hour; this is our data sampling rate. Likewise, we don’t play sounds continuously but rather play a series of notes at some audio sampling rate. The sampling rate, or the *frequency* with which we measure and then play the audification of data, is analogous to sound frequency, which our ears perceive as pitch. Thus, the frequency of the sound playback influences the pitch at which we hear the audification. Often, we cannot play an audification of the data with the same frequency as the original data sampling rate because that frequency, or pitch, would be outside the range of human hearing. Thus, audifications often involve “translating” the sound representation of the data to the human audible pitch range.
+
+You can [listen to some examples of audification on the Accessible Oceans page here.]( https://accessibleoceans.whoi.edu/audification/)
+
+[You can listen to audifications of the gravitational wave detections made by LIGO (the Laser Interferometer Gravitational-Wave Observator) here.](https://gwosc.org/audio/)
+
+If audification is so straightforward, why don’t we use it for all sonifications? First and most importantly, audification is only suited to very particular types of data, usually time-dependent data or data that resemble it (i.e. data with one independent and one dependent variable). If we only used audification, we would thus be quite restricted in the types of data we could represent. For instance, two- or more dimensional data, such as those beautiful images of space taken by telescopes, would be impossible to represent with audification, which is just meant for a single independent and a single dependent variable.
+
+## Parameter Mapping
+
+Parameter mapping is a more flexible form of sonification that has become quite popular in recent years. In essence, we “map,” or connect, different aspects or dimensions of the data to different parameters of the sound representation such as pitch, volume, and rhythm (e.g. see Arcand et al., 2024). Like audification, we could use parameter mapping to sonify data consisting of one independent and one dependent variable, but one of the strengths of this method is that we can use it to represent higher dimensional data (i.e. data with more variables)—perhaps even higher dimensional data than we could show in a single visualization.
+
+Let’s clarify the concept of parameter mapping using an example. Suppose you have measurements of number of sales of something—let’s go with ice cream—and net profits over a period of fifty years. We choose to map the number of sales to pitch such that more sales are represented by higher pitches and to map the net profits to volume such that more profits are represented by a louder note. Each measurement in time is represented by a single note, and the spacing between notes (rhythm) is scaled relative to the time between measurements.
+
+Suppose, as we listen to the sonification, that we hear a period in which the pitch of notes drops; we can tell from our mapping that this means that the number of ice cream sales in this period has dropped relative to the other measurements. Perhaps it is the wintertime or a recession. Now suppose that over the course of the entire data sonification we hear the volume of the notes generally increase, but the pitch remains relatively constant. This would suggest that the number of ice cream sales has remained constant but that profits have gone up, so the cost per ice cream has increased (inflation!). Finally, suppose that the amount of time between notes decreases towards the end of the sonification; this means that the data were collected more frequently in later times.
+
+Note here that there is no one “correct” way to map our data to different parameters. We could have just as easily mapped number of sales to volume and profits to pitch. Thus, we make choices, generally through testing and experimentation, to see which representations of our data most effectively and accurately capture the importance of information and communicate it, preferably both comprehensively and in an aesthetically pleasing manner. This truly is no different from a visualization, wherein graphics will go through many iterations of design to most clearly represent the data. Data representations, whether sonic, visual, or otherwise, involve choice.
+
+[You can find many examples of parameter mapping on NASA and the Chandra X-ray Center’s Universe of Sound website, linked here, along with descriptions of how the parameter mappings were performed.](https://chandra.si.edu/sound/)
+
+## Learning to Use Sonifications
+
+If after listening to a few examples of sonification, you’re thinking “Boy, I can’t make heads or tails out of these sounds,” fear not! Children are taught from a very young age to read graphs and visualizations until they feel intuitive and natural, but for the most part we are given no such education in sonification. As noted by Tucker Brown et. al (2022) regarding Astronify, the sonification software we will be using here, “we must expect at least some level of training and experience for sonification to be used effectively in the professional astronomy setting.” Extrapolating their conclusions beyond the realm of professional astronomy, it makes sense that you would need education and practice to efficiently and accurately interpret sonifications, just as sighted people need the same education and practice to understand graphs. (Think about it: that’s pretty much a whole section on the ACT, a standardized test for which people study for months!)
+
+In the following section and code tutorial, we will give you an introductory education in interpreting and understanding sonifications with Astronify.
+
+## References
+Arcand, K., Schonhut-Stasik, J. S., Kane, S. G., Sturdevant, G., Russo, M., Watze, M., Hsu, B., Smith L. (2024; in review). A Universe of Sound: Processing NASA Data into Sonifications to Explore Participant Response.
+Audification—Accessible Oceans. (n.d.). Https://Accessibleoceans.Whoi.Edu/. Retrieved February 26, 2024, from https://accessibleoceans.whoi.edu/audification/
+Tucker Brown, J., Harrison, C. M., Zanella, A., & Trayford, J. (2022). Evaluating the efficacy of sonification for signal detection in univariate, evenly sampled light curves using astronify. Monthly Notices of the Royal Astronomical Society, 516(4), 5674–5683. https://doi.org/10.1093/mnras/stac2590
+Kramer, G. (1994). Auditory Display: Sonification, Audification, and Auditory Interfaces.
+Kramer, G., Walker, B., Bonebright, T., Cook, P., Flowers, J., Miner, N., & Neuhoff, J. (2010). Sonification Report: Status of the Field and Research Agenda. Department of Psychology: Faculty Publications. https://digitalcommons.unl.edu/psychfacpub/444
+Dombois, F. & Eckel, G.. (2011). Audification. In Hermann, T., Hunt, A., Neuhoff, J. G., editors, The Sonification Handbook, chapter 12, pages 301-324. Logos Publishing House, Berlin, Germany.
+
+[<<< Previous](installing_astronify.md) | [Next >>>](data_preparation.md)
