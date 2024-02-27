@@ -77,7 +77,7 @@ This one might be a bit harder to interpret, but those of you who recall some of
 Now let's make each of these arrays, including x, a column of a new Pandas DataFrame called df. Note that I add each column individually because I find it less confusing than adding them all at once when the DataFrame is created.
 
 ```python 
-# Now let's construct a pandas DataFrame with each of these arrays as a row.
+# Now let's construct a pandas DataFrame with each of these arrays as a column.
 df = pandas.DataFrame()
 df['x'] = x
 df['linear'] = y_linear
