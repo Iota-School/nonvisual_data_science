@@ -1,3 +1,5 @@
+[<<< Previous](missing_values.md) | [Next >>>](astronify_parameters.md)
+
 # Checking Models of Our Data with Sonification
 
 One really frequent thing you'll see people do with data is to model it. What I mean by this is that they will try to find some mathematical equation that more or less follows the same pattern as the data. The correlations that Patrick showed you how to find in the Nonvisual Data Representation tutorial could be considered a part of linear modeling, or finding a linear equation that follows the trend in the data. We won't dig too deeply into that here; we are just interested in using sonifications to judge whetehr a model is roughly a good fit to the data or not.
@@ -41,3 +43,5 @@ Which model sonification sounds more similar to the original Delhi temeprature d
 The answer is below this line:
 
 Model One is meant to be a better fit to the data--and in fact, it is meant to be a much better fit to the data than Model two!
+
+[<<< Previous](missing_values.md) | [Next >>>](astronify_parameters.md)
