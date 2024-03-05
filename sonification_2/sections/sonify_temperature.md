@@ -1,4 +1,4 @@
-[<<< Previous](sonify_temperature.md) | [Next >>>](scaling_sonifications.md)
+[<<< Previous](import_data.md) | [Next >>>](scaling_sonifications.md)
 
 # Sonifying Temperature Data
 
@@ -72,4 +72,4 @@ What do you hear? Remember that pitch is mapped to our value column such that hi
 soni_philadelphia.play()
 ~~~
 
-[<<< Previous](sonify_temperature.md) | [Next >>>](scaling_sonifications.md)
+[<<< Previous](import_data.md) | [Next >>>](scaling_sonifications.md)
