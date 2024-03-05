@@ -1,3 +1,5 @@
+[<<< Previous](sonify_temperature.md) | [Next >>>](scaling_sonifications.md)
+
 # Sonifying Temperature Data
 
 Alright, now that we have imported and explored our data a bit, we're ready to sonify it--after a few more quick steps!
@@ -69,3 +71,5 @@ What do you hear? Remember that pitch is mapped to our value column such that hi
 ~~~python
 soni_philadelphia.play()
 ~~~
+
+[<<< Previous](sonify_temperature.md) | [Next >>>](scaling_sonifications.md)
