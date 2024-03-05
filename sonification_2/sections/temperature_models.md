@@ -18,13 +18,13 @@ To begin with, let's listen to the sonification of the Delhi daily temperature d
 soni_delhi.play()
 ~~~
 
-We can then sonify and play the predictions from Models One and Two using the steps with which we are very familiar by now. Recall that we have set the zero point of our Delhi sonification, or the value that is mapped to a pitch of 440 Hertz, to 60 for comparison with the Philadelphia sonification. We'll set the zero point of both of our model sonifications to 60 as well, for consistency.
+We can then sonify and play the predictions from Models One and Two using the steps with which we are very familiar by now. Recall that we have set the zero point of our Delhi sonification, or the value that is mapped to a pitch of 440 Hertz, to 57 for comparison with the Philadelphia sonification. We'll set the zero point of both of our model sonifications to 57 as well, for consistency.
 
 Let's sonify the first model:
 
 ~~~python
 soni_model1 = SoniSeries(tbl, time_col='timestep', val_col='delhi_temp_model_one')
-soni_model1.pitch_mapper.pitch_map_args["zero_point"] = 60
+soni_model1.pitch_mapper.pitch_map_args["zero_point"] = 57
 soni_model1.sonify()
 soni_model1.play()
 ~~~
@@ -33,7 +33,7 @@ And we can sonify the second model with the exact same steps:
 
 ~~~python
 soni_model2 = SoniSeries(tbl, time_col='timestep', val_col='delhi_temp_model_two')
-soni_model2.pitch_mapper.pitch_map_args["zero_point"] = 60
+soni_model2.pitch_mapper.pitch_map_args["zero_point"] = 57
 soni_model2.sonify()
 soni_model2.play()
 ~~~
@@ -42,6 +42,6 @@ Which model sonification sounds more similar to the original Delhi temeprature d
 
 The answer is below this line:
 
-Model One is meant to be a better fit to the data--and in fact, it is meant to be a much better fit to the data than Model two!
+Model One is meant to be a better fit to the data--and in fact, it is meant to be a much better fit to the data than Model Two! You hear Model Two at a much lower pitch because of the re-scaling that we did; in reality, Model Two is predicting temperatures way, way lower than Delhi's actual temperatures, and since they have the same zero point, we can hear that represented! Model One does sound different from the real data too, but it is certainly much closer. Part of the reason for that difference is because the model is a perfect, smooth wave, whereas our real temperature data has a less perfect shape.
 
 [<<< Previous](missing_values.md) | [Next >>>](astronify_parameters.md)
