@@ -1,3 +1,5 @@
+[<<< Previous](sonify_temperature.md) | [Next >>>](missing_values.md)
+
 # Scaling a Sonification
 
 ## Sonifying Delhi's Daily Temperatures
@@ -84,3 +86,5 @@ Can you hear the difference?
 Note here that due to how the Astronify sonification algorithm works, we can't easily make the value-to-pitch mapping identical for the Delhi and Philadelphia temperature data. This is why it's so crucial that we check the minimum and maximum values of our data to get a sense for how the scaling works. This issue of scaling is not totally unique to sonification, as similar visualizations of difference datasets often have different axis scalings that can be confusing to sighted users of those visualizations. However, unlike visualizations, our sonification does not include automatic labels for the minimum and maximum values and how they are mapped to the pitches. The issue of "axis labels" in sonification is a very interesting one to me, so please do feel free to reach out or to attend office hours if you are interested in chatting more!
 
 We won't cover them all in detail here, but you can read more about Astronify's sonification parameters in the section with that name.
+
+[<<< Previous](sonify_temperature.md) | [Next >>>](missing_values.md)
