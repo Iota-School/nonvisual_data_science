@@ -1,3 +1,5 @@
+[<<< Previous](scaling_sonifications.md) | [Next >>>](temperature_models.md)
+
 # Dealing with Missing Values
 
 Real data is often messy. It can have errors and strange formatting and a myriad of other issues that can be difficult to even predict before you explore the data yourself. One of the most frequent issues you will encounter is missing values in your dataset, which we will discuss how to handle now.
@@ -65,3 +67,5 @@ soni_nyc.play()
 ~~~
 
 Sounds much better, right?
+
+[<<< Previous](scaling_sonifications.md) | [Next >>>](temperature_models.md)
