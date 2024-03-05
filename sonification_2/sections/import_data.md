@@ -1,3 +1,5 @@
+[<<< Previous](../README.md) | [Next >>>](sonify_temperature.md)
+
 # Importing and Exploring our Data
 
 Welcome to the fifth and final tutorial of the Nonvisual Data Science workshop series! This will be the second tutorial covering data sonification, or the representation of data as sound. If you missed our last tutorial, which covered the fundamentals of sonification, I highly reccommend that you check that out first. Today we will be working with some real data!
@@ -84,3 +86,5 @@ df.philadelphia_temp.mean()
 ~~~
 
 And I get an output of approximately 56 degrees, which roughly makes sense to me from my experience. I encourage you to repeat these steps for each column you are interested in and plan to sonify to get a sense of what the data is doing!
+
+[<<< Previous](../README.md) | [Next >>>](sonify_temperature.md)
