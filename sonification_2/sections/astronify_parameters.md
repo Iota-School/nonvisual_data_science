@@ -1,3 +1,5 @@
+[<<< Previous](temperature_models.md)
+
 # Astronify’s Features
 
 Astronify has a variety of parameters that allow the user to alter how the data is sonified. We will cover some of these parameters as we use Astronify in our code, but here is a written description for your convenience. Naturally, the best place to get the complete details regarding Astronify’s features is in the package’s [documentation]( https://astronify.readthedocs.io/en/latest/astronify/index.html), which I follow from quite closely here.
@@ -8,3 +10,5 @@ Astronify has a variety of parameters that allow the user to alter how the data 
 - You can use either *minmax_value* or *minmax_percent* to enter an array that defines the minimum and maximum values or percent, respectively of the data to be sonified. For instance, suppose you set minmax_value = [0,50]; now, only data values between 0 and 50 will be sonified. If minmax_percent = [5,95], then the lowest 5% and highest 5% of the data values will be removed from the data array and will not be sonified. This is a useful tool to remove outliers from your sonification. Suppose all of your data is between 0 and 50, except for one point at 1000. That one value at 1000 may or may not be a useful data point rather than an erroneous outlier, but either way it might sound pretty crazy in the sonification! Thus, you might prefer to listen to the sonified data without that point.
 
 We're not going to test changing each of these parameters in detail, but please do feel free to test them out on your own!
+
+[<<< Previous](temperature_models.md)
