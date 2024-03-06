@@ -21,6 +21,9 @@ If you would like to resume your session in the future, you can use the `%load` 
 ```python
 %load nonvisual.py
 ```
+
+You will have to hit Enter twice, since `%load` simply loads the code from the specified file; hitting Enter a second time actually runs the loaded code to bring the REPL back to the desired state.
+
 ## Other Useful Magic Commands and IPython Tricks
 
 IPython has a [variety of magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html). A few other useful commands:
