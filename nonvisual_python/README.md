@@ -44,7 +44,7 @@ In addition, we'll cover these Python-specific topics:
 - [Looking Inside Objects](sections/objects.md)  
 - [A Little Motivation](sections/motivation.md)  
 - [Saving Our Code with IPython Magic](sections/magic.md)  
-<!-- - [Resources](sections/resources.md)   -->
+
 
 ## Resources
 

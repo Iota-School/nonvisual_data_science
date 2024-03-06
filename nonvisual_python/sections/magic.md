@@ -1,4 +1,4 @@
-[<<< Previous](motivation.md) | [Next >>>](resources.md)
+[<<< Previous](motivation.md) 
 
 # Saving Our Code with IPython Magic
 
@@ -68,4 +68,4 @@ That's the letter y, a space, an equal sign, a space, an underscore, and the num
 
 Just replace the number 9 with the number of the cell whose output you want to reference.
 
-[<<< Previous](motivation.md) | [Next >>>](resources.md)
+[<<< Previous](motivation.md)
