@@ -68,7 +68,7 @@ The .any() function will return a True if any values in an array are True (even 
 Alright, so we know what missing values are and how to find them, but how do we stop them from making a mess of our sonification? Fortunately, Astronify has a parameter in its pitch mapping algorithm that we can set to do this for us. The minmax_percent argument allows us to enter a minimum and maximum percent of the values that will be mapped to a pitch. Thus, if I set the minimum percent to 5, then the lowest 5% of values in our data will be excluded from the sonification. In our case, this means that those really low -99.0 values representing missing data won't be sonified. We're not as concerned about really high values here, so I'll make the upper bound of the minmax_percent 100, thus including even the highest temperature value from our data in the sonification. Note here that we set minmax_percent to be equal to a list qith two numbers: the lower bound and upper bound we want included in our data.
 
 ~~~python
-soni_nyc.pitch_mapper.pitch_map_args["minmax_percent"] = [5,100]
+soni_nyc.pitch_mapper.pitch_map_args["minmax_percent"] = [5, 100]
 ~~~
 
 Tthen we can follow our favorite steps of sonifying the data and playing the sonification:
