@@ -57,7 +57,7 @@ Next, we will make an instance of the SoniSeries class containing the data in tb
 soni_philadelphia = SoniSeries(tbl, time_col='timestep', val_col='philadelphia_temp')
 ~~~
 
-Unlike last week, I'll leave the note spacing at its default setting of 0.01 seconds between notes. This is rather a long sonification with a lot of data points, so I don't want to slow it down. I actually think the sonification sounds a bit better if you set the note spacing to 0.08, but that's a matter of personal preference, so feel free to test it.
+Unlike last week, I'll leave the note spacing at its default setting of 0.01 seconds between notes. This is rather a long sonification with a lot of data points, so I don't want to slow it down.
 
 Now we can make the sonification and play it!
 
