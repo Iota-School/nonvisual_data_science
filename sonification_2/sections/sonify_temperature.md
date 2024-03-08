@@ -66,7 +66,7 @@ soni_philadelphia.sonify() # make the sonification
 soni_philadelphia.play() # play the sonification
 ~~~
 
-What do you hear? Remember that pitch is mapped to our value column such that higher pitches represent higher daily temperatures in Philadelphia, and lower pitches represent lower daily temperatures. Most clearly, I hear a repeating cycle of higher and lower pitches--this is the cycle of the seasons repeating over the years with colder temperatures in the winter and hotter temperatures in the summer! If you listen again and count the cycles, can you hear the 15 cycles in temperature representing the 15 years of data that we have here?
+What do you hear? Remember that pitch is mapped to our value column such that higher pitches represent higher daily temperatures in Philadelphia, and lower pitches represent lower daily temperatures. Most clearly, I hear a repeating cycle of higher and lower pitches--this is the cycle of the seasons repeating over the years with colder temperatures in the winter and hotter temperatures in the summer! If you listen again and count the cycles, can you hear the 25 cycles in temperature representing the 25 years of data that we have here?
 
 ~~~python
 soni_philadelphia.play()
