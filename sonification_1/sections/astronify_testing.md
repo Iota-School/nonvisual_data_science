@@ -91,7 +91,7 @@ Now we will add these random numbers to our parabola array, make that array with
 
 ```python 
 noise = numpy.random.normal(loc=0, scale=1, size=100)
-y_parabola_noise = y_parabola + noise
+y_parabola_noise = tbl['parabola'] + noise
 # add this as a new column to the Table
 # This works just like a DatFrame!
 tbl['parabola_noise'] = y_parabola_noise
