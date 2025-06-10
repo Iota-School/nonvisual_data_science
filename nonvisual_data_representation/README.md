@@ -1,5 +1,7 @@
 # Nonvisual Data Exploration and Representation
 
+[Hungarian Translation](hungarian-translation/README.md)
+
 In this workshop, we'll learn common ways of working with and representing specific types of data. These include categorical data, binary data, numerical data, and time data. We'll consider how specific techniques can serve as whole or partial replacements for common data science visualizations such as bar charts, scatterplots, and line charts. We'll also consider the advantages and drawbacks of exploring data in conversation with Python rather than creating discrete artifacts such as sonifications or visualizations.
 
 [Get Started](sections/data_types.md)  
